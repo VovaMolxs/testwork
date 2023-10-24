@@ -17,7 +17,7 @@ return new class extends Migration
             $table->char("surname");
             $table->char("lastname")->nullable();
             $table->date("date_born");
-            $table->char("email");
+            $table->char("email")->nullable();
             $table->char("user_phone");
             $table->integer("family_status");
             $table->text("about")->nullable();
